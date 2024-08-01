@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 '''
 sum_list - takes a list input_list
 @input_list: list of floats
