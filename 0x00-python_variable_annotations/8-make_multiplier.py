@@ -10,7 +10,7 @@ from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    # return multiplier with float
+    ''' return multiplier with float '''
     def mul_value(value: float) -> float:
         # multiply a float with the multiplier
         return (value * multiplier)

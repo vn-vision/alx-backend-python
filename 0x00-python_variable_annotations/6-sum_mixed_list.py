@@ -10,7 +10,7 @@ from typing import List, Union
 
 
 def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
-    # return sum of numbers in list
+    ''' return sum of numbers in list '''
     sum_list: float = 0
 
     for n in mxd_lst:

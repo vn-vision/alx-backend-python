@@ -9,7 +9,7 @@ from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
-    # add the floats in the list and return their sum
+    ''' add the floats in the list and return their sum '''
 
     list_sum: float = 0
     for n in input_list:
