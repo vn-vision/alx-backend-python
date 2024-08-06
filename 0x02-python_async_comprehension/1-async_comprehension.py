@@ -5,9 +5,10 @@ write a couroutine async_comprehension
 '''
 
 import asyncio
+from typing import List
 
 
-async def async_comprehension():
+async def async_comprehension() -> List[float]:
     '''
     collect 10 random numbers from async_generator
     return the 10 random numbers
