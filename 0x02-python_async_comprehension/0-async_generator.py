@@ -9,6 +9,7 @@ import asyncio
 import random
 from typing import AsyncGenerator
 
+
 async def async_generator() -> AsyncGenerator[float, None]:
     '''
     Takes no arguments, loops 10 times yielding
@@ -17,5 +18,5 @@ async def async_generator() -> AsyncGenerator[float, None]:
     '''
 
     for i in range(10):
-        await asyncio.sleep(1) # simulate an asynchronous operation
-        yield random.uniform(0, 10) # generate a random no 0-10
+        await asyncio.sleep(1)  # simulate an asynchronous operation
+        yield random.uniform(0, 10)  # generate a random no 0-10

@@ -17,7 +17,6 @@ async def measure_runtime():
     async_com = __import__('1-async_comprehension').async_comprehension
     start_time = time.time()
 
-
     async def task1():
         await async_com()
 
@@ -30,7 +29,6 @@ async def measure_runtime():
     async def task4():
         await async_com()
 
-    
     await asyncio.gather(task1(), task2(), task3(), task4())
 
     end_time = time.time()
